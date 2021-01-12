@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YelpCamp</title>
+    <title>MyCamp</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-<link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 
 <body class="d-flex text-center text-white bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
+    <div class="cover-container d-flex w-100 h-60 p-3 mx-auto flex-column">
+        <header style="margin: 0 0 150px 0">
             <div>
-                <h3 class="float-md-left mb-0">YelpCamp</h3>
+                <h3 class="float-md-left mb-0">MyCamp</h3>
                 <nav class="nav nav-masthead justify-content-center float-md-right">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="/campgrounds">Campgrounds</a>
+                    <a class="nav-link" href="/campgrounds">MyCamp</a>
                     <% if(!currentUser) { %>
                         <a class="nav-link" href="/login">Login</a>
                         <a class="nav-link" href="/register">Register</a>
@@ -27,10 +27,10 @@
                 </nav>
             </div>
         </header>
-        <!-- <div style="height: 200px"></div> -->
+
         <main class="px-3">
-            <h1>YelpCamp</h1>
-            <p class="lead"> Welcome to YelpCamp! <br> Jump right in and explore our many campgrounds. <br>
+            <h1>MyCamp</h1>
+            <p class="lead"> Welcome to MyCamp! <br> Jump right in and explore our many campgrounds. <br>
                 Feel free to share some of your own and comment on others!</p>
             <a href="/campgrounds" class="btn btn-lg btn-secondary font-weight-bold border-white bg-white">View
                 Campgrounds</a>
@@ -41,7 +41,6 @@
         </footer>
 
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
